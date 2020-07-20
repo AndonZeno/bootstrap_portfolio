@@ -1,0 +1,40 @@
+/* Navigation area */
+
+.header_area {
+  position: relative;
+  z-index: 100 !important;
+}
+
+.header_area .main-menu .navbar .navbar-brand {
+  padding: 0 2rem 0 2rem;
+}
+
+.header_area .main-menu .navbar {
+  padding: 1rem 5rem;
+}
+
+.header_area .main-menu .nav-item .nav-link {
+  padding: 1.7rem;
+}
+
+.header_area .main-menu .navbar-nav .active a {
+  color: #4c8690;
+}
+
+.header_area .main-menu .navbar-nav a:hover {
+  background: #3fafa3;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Carousel */
+.carousel-control-next,
+.carousel-control-prev {
+  filter: invert(100%);
+}
+
+#carouselExampleControls {
+  margin-top: -100px;
+  z-index: 20 !important;
+}
