@@ -1,16 +1,10 @@
-/* Navigation area */
-
-.header_area {
-  position: relative;
-  z-index: 100 !important;
-}
-
+/* Navigation area  */
 .header_area .main-menu .navbar .navbar-brand {
   padding: 0 2rem 0 2rem;
 }
 
 .header_area .main-menu .navbar {
-  padding: 1rem 5rem;
+  padding: 0 5rem;
 }
 
 .header_area .main-menu .nav-item .nav-link {
@@ -22,10 +16,7 @@
 }
 
 .header_area .main-menu .navbar-nav a:hover {
-  background: #3fafa3;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: #3fafa3;
 }
 
 /* Carousel */
@@ -34,7 +25,70 @@
   filter: invert(100%);
 }
 
-#carouselExampleControls {
-  margin-top: -100px;
-  z-index: 20 !important;
+.carousel img {
+  filter: brightness(50%);
+}
+
+.titleMessage {
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  margin-top: -105px;
+  height: 250px;
+  top: 75%;
+  color: #3fafa3;
+}
+.titleMessage .heading p {
+  color: #3fafa3;
+  text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.6);
+  font-weight: 100;
+  letter-spacing: 7px;
+}
+
+.titleMessage .heading .main {
+  font-size: 40px;
+}
+
+.titleMessage .heading .sub {
+  font-size: 20px;
+}
+
+/* About section */
+
+.about-image img {
+  width: 50%;
+  margin-left: 20%;
+  margin-bottom: 15vh;
+}
+
+.navbar_fixed {
+  position: fixed;
+  width: 100%;
+  top: -1px;
+  left: 0;
+  right: 0;
+  background: #ffffff;
+  background-color: white;
+  box-shadow: 3px 3px 20px -15px black;
+  z-index: 999;
+  transition: 1s ease;
+}
+
+.skills-area {
+  padding: 50px;
+}
+.labels {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.labels span {
+  color: #666;
+}
+.progress {
+  height: 5px;
+}
+.progress-bar {
+  background: -webkit-linear-gradient(left, #33156d 0%, #3fafa3 100%); /* Chrome10-25,Safari5.1-6 */
 }
