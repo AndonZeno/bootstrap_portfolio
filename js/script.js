@@ -9,7 +9,7 @@ $(document).ready(function () {
 
   // sticky navbar
 
-  let nav_top_offset = $(".header_area").height() + 50
+  let nav_top_offset = $(".header_area").height() + 650
 
   function navbarFixed() {
     if ($(".header_area").length) {
@@ -17,7 +17,6 @@ $(document).ready(function () {
         let scroll = $(window).scrollTop()
         if (scroll >= nav_top_offset) {
           $(".header_area .main-menu").addClass("navbar_fixed")
-          $(".navbar").css("background-color", "white")
         } else {
           $(".header_area .main-menu").removeClass("navbar_fixed")
         }
