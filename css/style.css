@@ -1,3 +1,9 @@
+/* GLOBAL CSS */
+
+section {
+  margin: 70px 0;
+}
+
 /* Carousel */
 .carousel-control-next,
 .carousel-control-prev {
@@ -66,6 +72,10 @@
   transition: 1s ease;
 }
 
+.sticky_about_area {
+  padding-top: 80px;
+}
+
 /* About section */
 
 .about-image img {
@@ -121,7 +131,7 @@
   position: relative;
 }
 
-#carouselExampleControls a:first-child {
+#carouselExampleControls .heading a:first-child {
   position: absolute;
   top: 50%;
   margin-left: -75px;
@@ -136,19 +146,19 @@
   transition: 0.2s;
 }
 
-#carouselExampleControls a:first-child:hover {
+#carouselExampleControls .heading a:first-child:hover {
   color: white;
   background: #3fafa3;
   box-shadow: 0 0 10px #3fafa3, 0 0 40px #3fafa3, 0 0 80px #3fafa3;
   transition-delay: 1s;
 }
 
-#carouselExampleControls a span {
+#carouselExampleControls .heading a span {
   position: absolute;
   display: block;
 }
 
-#carouselExampleControls a span:nth-child(1) {
+#carouselExampleControls .heading a span:nth-child(1) {
   top: 0;
   left: -100%;
   width: 100%;
@@ -156,12 +166,12 @@
   background: linear-gradient(90deg, transparent, #3fafa3);
 }
 
-#carouselExampleControls a:hover span:nth-child(1) {
+#carouselExampleControls .heading a:hover span:nth-child(1) {
   left: 100%;
   transition: 1s;
 }
 
-#carouselExampleControls a span:nth-child(3) {
+#carouselExampleControls .heading a span:nth-child(3) {
   bottom: 0;
   right: -100%;
   width: 100%;
@@ -169,13 +179,13 @@
   background: linear-gradient(270deg, transparent, #3fafa3);
 }
 
-#carouselExampleControls a:hover span:nth-child(3) {
+#carouselExampleControls .heading a:hover span:nth-child(3) {
   right: 100%;
   transition: 1s;
   transition-delay: 0.5s;
 }
 
-#carouselExampleControls a span:nth-child(2) {
+#carouselExampleControls .heading a span:nth-child(2) {
   top: -100%;
   right: 0;
   width: 2px;
@@ -183,12 +193,12 @@
   background: linear-gradient(180deg, transparent, #3fafa3);
 }
 
-#carouselExampleControls a:hover span:nth-child(2) {
+#carouselExampleControls .heading a:hover span:nth-child(2) {
   top: 100%;
   transition: 1s;
   transition-delay: 0.25s;
 }
-#carouselExampleControls a span:nth-child(4) {
+#carouselExampleControls .heading a span:nth-child(4) {
   bottom: -100%;
   left: 0;
   width: 2px;
@@ -196,8 +206,10 @@
   background: linear-gradient(360deg, transparent, #3fafa3);
 }
 
-#carouselExampleControls a:hover span:nth-child(4) {
+#carouselExampleControls .heading a:hover span:nth-child(4) {
   bottom: 100%;
   transition: 1s;
   transition-delay: 0.75s;
 }
+
+/* SERVICES AREA */
