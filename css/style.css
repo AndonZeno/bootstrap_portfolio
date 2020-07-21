@@ -86,7 +86,7 @@ section {
 
 .modal_button {
   padding: 10px 40px !important;
-  background: #33156d;
+  background: #4f2a99;
   border: none;
   outline: none;
 }
@@ -213,3 +213,37 @@ section {
 }
 
 /* SERVICES AREA */
+
+/* Contact area */
+.contact-area .container {
+  background: -webkit-linear-gradient(left, #5c37a7 0%, #3fafa3 100%);
+  color: white;
+  border-radius: 5px;
+}
+
+.contact-area .btn-primary {
+  width: 150px;
+  background: #3fafa3;
+}
+
+.contact-area .btn-primary:hover {
+  background: #5c37a7;
+}
+
+/* FOOTER AREA */
+
+footer.footer-area {
+  padding: 5rem 0;
+  background: url(/img/footer.png) repeat;
+  width: 100%;
+}
+
+footer.footer-area .social a {
+  font-size: 22px;
+  padding: 2rem;
+  color: grey;
+}
+
+footer.footer-area .social a:hover {
+  color: black;
+}
